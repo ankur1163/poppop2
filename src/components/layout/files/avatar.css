@@ -1,0 +1,35 @@
+#sidebar #avatar{
+  height: 75px;
+  background: #FA7252;
+}
+#avatar .container-fluid:after,
+#avatar .container-fluid:before{
+  content: " ";
+    display: table;
+}
+.user-avatar{
+  border-radius: 50%;
+  border: 2px solid #eee;
+  top: 7px;
+    position: relative;
+}
+.fg-white{
+  color: white;
+}
+.user-name{
+    top: 23px;
+    font-size: 16px;
+    line-height: 1;
+    position: relative;
+}
+.user-progress > .progress{
+    height: 6px;
+}
+.user-progress > .progress{
+    width:70%;
+    margin-top: 29px;
+    margin-right: 50px;
+}
+.user-progress > .progress > .progress-bar{
+    width: 70%;
+}

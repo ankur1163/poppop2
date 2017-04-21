@@ -36,6 +36,7 @@ var index = require('./routes/index');
 var api = require('./routes/api');
 var login = require('./routes/loginA0');
 var user = require('./routes/user');
+var popad = require('./routes/popad')
 
 // // ------------------ADDED auth0 sample
 // // This will configure Passport to use Auth0
@@ -126,6 +127,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/api', api);
+app.use('/popad',popad)
 app.use('/user', user);
 //app.use('/loginA0', login);
 app.use('/Polldetailfull/:id', index);
